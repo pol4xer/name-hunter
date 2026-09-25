@@ -1,0 +1,4 @@
+# По одному Telegram username на строку. Знак @ необязателен.
+# Замените примеры своими именами и сохраните как candidates.txt.
+example_username
+another_example_name
