@@ -1,0 +1,28 @@
+# Local credentials and Telegram authorization
+/config.toml
+/config.toml.*
+/data/
+*.session
+*.session-*
+.env
+.env.*
+
+# Local input and generated results
+/candidates.txt
+/results/
+
+# Python environment and generated files
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.DS_Store

@@ -1,0 +1,17 @@
+# Скопируйте этот файл в config.toml и заполните данные приложения Telegram:
+# https://my.telegram.org/apps
+[telegram]
+api_id = 0
+api_hash = ""
+# Сессия сохраняется после первой авторизации; повторно вводить код не требуется.
+session_file = "data/username_checker"
+
+[checker]
+# По одному username на строку; допускаются @ и комментарии, начинающиеся с #.
+candidates_file = "candidates.txt"
+delay = 1.0
+# 0 — один проход; положительное значение — повтор с интервалом от 300 секунд.
+interval = 0
+results_dir = "results"
+
+# Относительные пути считаются от папки config.toml, независимо от рабочей папки IDE.
